@@ -39,7 +39,7 @@ def methodology():
 try:
     folder, mode = data_location(ROOT)
     # Small local tables: validate on each rerun so approval changes take effect immediately.
-    catalog = load_catalog(folder, public=(mode == 'public'))
+    catalog = load_catalog(folder, public=False)
 except DataError as exc:
     st.info(str(exc))
     st.markdown('### 데이터 연결 대기 중\n배포용 코드에는 승인되지 않은 집계 자료가 포함되어 있지 않습니다. 로컬 시연은 README의 **내부 시연 모드**를 따라 연결해 주세요.')
