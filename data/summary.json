@@ -1,0 +1,14 @@
+{
+  "raw_rows": 58281,
+  "brands": 129,
+  "videos": 232,
+  "unique_comment_ids": 58030,
+  "duplicate_excess": 251,
+  "shared_videos": 3,
+  "valid_rows": 3541,
+  "profile_brands": 112,
+  "ranked_pairs": 613,
+  "reduction": 0.9392426348209536,
+  "date_min": "2016-07-15 09:03:19+00:00",
+  "date_max": "2026-10-21 15:21:47+00:00"
+}
